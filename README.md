@@ -12,5 +12,7 @@ This repository contains the microbenchmarks used to characterize the In-Memory 
 
 ## Compilation
 Ensure `libqpl` and `qatzip` are installed on your system.
-g++ -O3 -march=native measure_overhead_iaa.cpp -lqpl -o measure_overhead_iaa
-g++ -O3 -march=native measure_overhead_qat.cpp -lqatzip -o measure_overhead_qat
+
+`g++ -O3 -march=native measure_overhead_iaa.cpp -lqpl -o measure_overhead_iaa`
+
+`g++ -O3 -march=native measure_overhead_qat.cpp -lqatzip -o measure_overhead_qat`
